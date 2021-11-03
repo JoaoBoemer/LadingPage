@@ -66,6 +66,10 @@ nav {
   text-align: center;
 }
 
+.portfolio-wrap img{
+  width: 100%;
+}
+
 .service_title{
   text-align: center;
   padding: 15px;
@@ -90,11 +94,11 @@ nav {
 .row .home_item {
   width: 50%;
   text-align:left;
-  margin-top:6%;
+  margin-top:15%;
   color: white;
   font-weight: bold;
   font-size: 40px;
-  min-height: 250px;
+
 }
 
 .home_text{
@@ -247,7 +251,7 @@ a:hover {
   }
 
   .social-icon a img{
-    vertical-align: top;
+    vertical-align:top;
     height: 100%;
   }
 
@@ -263,14 +267,14 @@ a:hover {
 .container__section__home {
   background-color: var(--frame-background);
   color: var(--texto-01);
-  background-image: url(background_home.jpg);
+  background-image: url(background_home.png);
   background-repeat: no-repeat, repeat;
   margin:auto;
   background-position-x: center;
   background-size: cover;
   z-index: 0;
   height: 100%;
-  min-height:91vh;
+  min-height:100vh;
 }
 
 .container__section__portfolio {
